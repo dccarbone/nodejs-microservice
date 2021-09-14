@@ -8,7 +8,7 @@ steps:
   settings:
     registry: gcr.io
     repo: cka2021-324923/test
-    tags: latest
+    tags: ${DRONE_TAG}
     json_key:
       from_secret: google_credential
 
