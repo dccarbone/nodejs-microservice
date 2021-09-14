@@ -7,7 +7,7 @@ steps:
   image: plugins/gcr
   settings:
     registry: gcr.io
-    repo: myfirstrepo/test
+    repo: cka2021-324923/test
     tags: latest
     json_key:
       from_secret: google_credential
